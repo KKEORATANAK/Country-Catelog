@@ -42,8 +42,8 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f4f7f9;
   color: #333;
-  margin: 0;
-  margin-top: 5%;
+  margin-bottom: 2%;
+  margin-top: 2%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -128,7 +128,7 @@ hr {
 
 .country-card img {
   width: 100%;
-  height: auto;
+  height: 120px;
   border-radius: 4px;
 }
 

@@ -4,7 +4,7 @@ const CountryCard = ({ country, onClick }) => {
   return (
     <div className="country-card" onClick={onClick}>
       <img src={country.flags.png} alt={`${country.name.official} flag`} />
-      <h2>{country.name.official}</h2>
+      <h3>{country.name.official}</h3>
       <p>
         Code: {country.cca2}, {country.cca3}
       </p>

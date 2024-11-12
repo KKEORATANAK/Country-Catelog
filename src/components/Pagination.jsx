@@ -12,8 +12,8 @@ const Pagination = ({ itemsPerPage, totalItems, currentPage, paginate }) => {
     <ReactPaginate
       pageCount={pageCount}
       onPageChange={handlePageClick}
-      previousLabel={"← Previous"}
-      nextLabel={"Next →"}
+      previousLabel={"Previous"}
+      nextLabel={"Next"}
       containerClassName={"pagination"}
       activeClassName={"active"}
       forcePage={currentPage - 1}
