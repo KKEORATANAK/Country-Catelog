@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/KKEORATANAK/Country-Catelog/static/css/main.403acc6a.css",
-    "main.js": "/KKEORATANAK/Country-Catelog/static/js/main.a089d346.js",
-    "static/js/453.6861d7ee.chunk.js": "/KKEORATANAK/Country-Catelog/static/js/453.6861d7ee.chunk.js",
-    "static/media/logo.svg": "/KKEORATANAK/Country-Catelog/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/KKEORATANAK/Country-Catelog/index.html",
-    "main.403acc6a.css.map": "/KKEORATANAK/Country-Catelog/static/css/main.403acc6a.css.map",
-    "main.a089d346.js.map": "/KKEORATANAK/Country-Catelog/static/js/main.a089d346.js.map",
-    "453.6861d7ee.chunk.js.map": "/KKEORATANAK/Country-Catelog/static/js/453.6861d7ee.chunk.js.map"
+    "main.css": "/Country-Catelog/static/css/main.403acc6a.css",
+    "main.js": "/Country-Catelog/static/js/main.d267932e.js",
+    "static/js/453.6861d7ee.chunk.js": "/Country-Catelog/static/js/453.6861d7ee.chunk.js",
+    "static/media/logo.svg": "/Country-Catelog/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Country-Catelog/index.html",
+    "main.403acc6a.css.map": "/Country-Catelog/static/css/main.403acc6a.css.map",
+    "main.d267932e.js.map": "/Country-Catelog/static/js/main.d267932e.js.map",
+    "453.6861d7ee.chunk.js.map": "/Country-Catelog/static/js/453.6861d7ee.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.403acc6a.css",
-    "static/js/main.a089d346.js"
+    "static/js/main.d267932e.js"
   ]
 }
