@@ -36,3 +36,212 @@
     transform: rotate(360deg);
   }
 }
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7f9;
+  color: #333;
+  margin: 0;
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.App {
+  max-width: 1000px;
+  width: 100%;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #b36200;
+}
+
+input[type="text"] {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  font-size: 1em;
+  margin: 10px auto;
+  display: block;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #0056b3;
+  outline: none;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px 5px;
+  font-size: 1em;
+  border: none;
+  border-radius: 4px;
+  background-color: #0056b3;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #003d80;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+}
+
+.country-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.country-card {
+  background-color: #ffffff;
+  width: 200px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.country-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.country-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.country-card h3 {
+  font-size: 1.2em;
+  margin: 10px 0;
+  color: #333;
+}
+
+/* Pagination Component Styling */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.pagination li {
+  display: inline;
+  margin: 0 5px;
+}
+
+.pagination a {
+  text-decoration: none;
+  color: #0056b3;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.pagination a:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+.pagination .active a {
+  background-color: #0056b3;
+  color: white;
+  border-color: #0056b3;
+}
+
+.pagination button {
+  background-color: #0056b3;
+  color: white;
+  border: 1px solid #0056b3;
+  margin: 0 5px;
+  padding: 8px 12px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.pagination button:hover,
+.pagination button.active {
+  background-color: #003d80;
+  color: #fff;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  padding: 20px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.modal h3 {
+  margin-top: 0;
+  font-size: 1.5em;
+  color: #0056b3;
+}
+
+.modal-close {
+  background-color: transparent;
+  color: #0056b3;
+  font-size: 1.2em;
+  border: none;
+  cursor: pointer;
+  float: right;
+}
+/* CountryCard.css */
+
+.country-card {
+  text-align: center;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.country-card:hover {
+  transform: scale(1.05);
+}
+
+.country-flag {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.country-name {
+  font-size: 1.1em;
+  color: #333;
+  margin-top: 10px;
+}
